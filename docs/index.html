@@ -2,10 +2,53 @@
 <html>
 <head>
     <title>brat</title>
-    <meta http-equiv="refresh" content="0; url=spotify:album:2lIZef4lzdvZkiiCzvPKj7" />
+
+    <style>
+        
+    @font-face {
+        font-family: 'arial_narrowregular';
+        src: url('/sites/g/files/g2000017981/files/2024-03/arial_narrow-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background: #8acf00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family:'arial_narrowregular'
+    }
+
+    a{
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+        filter: blur(5px);
+        font-size: 10em;
+    }
+
+    div{
+        text-align: center;
+    }
+    
+
+    </style>
+
 </head>
 <body>
-<a href="spotify:album:2lIZef4lzdvZkiiCzvPKj7">brat2</a>
+    <a href="spotify:album:2lIZef4lzdvZkiiCzvPKj7:play">
+    <div>
+        brat
+    </div>
+</a>
+
+<script>
+    window.onload = function() {
+        window.location.href = "spotify:album:2lIZef4lzdvZkiiCzvPKj7:play";
+    }
+</script>
 
 </body>
 </html>
